@@ -3,7 +3,6 @@
 import { useEffect, useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Skeleton } from "@/components/ui/skeleton"
-import Link from 'next/link';
 
 export default function HomePage() {
   const [posts, setPosts] = useState<any[]>([]);
